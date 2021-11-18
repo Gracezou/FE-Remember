@@ -13,7 +13,7 @@ var isRectangleCover = function (rectangles) {
     minY = Math.min(minY, y);
     maxX = Math.max(maxX, a);
     maxY = Math.max(maxY, b);
-    const arr = [`${x1} ${y1}`, `${x1} ${y2}`, `${x2} ${y1}`, `${x2} ${y2}`];
+    const arr = [`${x} ${y}`, `${x} ${b}`, `${a} ${y}`, `${a} ${b}`];
     arr.forEach((k) => (cnt.has(k) ? cnt.delete(k) : cnt.add(k)));
   }
 
