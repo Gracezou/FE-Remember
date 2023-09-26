@@ -51,9 +51,9 @@ A.prototype.addAtHead = function (val) {
 }
 let test = new A()
 
-console.log(test)
-console.log(test.get(0))
-test.val = [1, 2]
-console.log(test.get(1))
-test.addAtHead(1)
-console.log(test)
+// console.log(test)
+// console.log(test.get(0))
+// test.val = [1, 2]
+// console.log(test.get(1))
+// test.addAtHead(1)
+// console.log(test)
