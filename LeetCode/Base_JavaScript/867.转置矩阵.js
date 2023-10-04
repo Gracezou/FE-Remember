@@ -11,6 +11,8 @@
  */
 var transpose = function (matrix) {
     // return matrix[0].map((_, index) => matrix.map(item => item[index]))
-    return Array.from({ length: matrix[0].length }, (_, index) => matrix.map(item => item[index]))
+    // return Array.from({ length: matrix[0].length }, (_, index) => matrix.map(item => item[index]))
+    return 0, 2
 }
 // @lc code=end
+console.log(transpose())
